@@ -1,50 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Pw Player by αηηυ</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-  <video id="player" controls></video>
+<!-- partial:index.partial.html -->
+<!doctype html>
 
-  <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Pw Player by αηηυ</title> 
+
+  <link rel="stylesheet" href="./style.css"> 
+
+ </head> 
+
+ <body> <!-- partial:index.partial.html --> 
+
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <h2>PW  VIDEO PLAYER</h2> 
+
+     <div class="form"> 
+
+      <div class="inputBox"> 
+
+                 <input type="text" id="videoKey" required> <i>Video key</i>
+
+      </div> 
+
+      
+      <div class="links"> <a href="https://anukoushal.github.io/anu/about.html">About me</a> <a href="https://anukoushal.github.io/anu/">New Player </a> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="submit" value="【P】【L】【A】【Y】⚡"
+onclick="redirectToURL()"> 
+
+      </div> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+  	
   <script>
-    var video_id = window.location.search.split('=');
-    
-    document.addEventListener('DOMContentLoaded', function () {
-      const player = new Plyr('#player');
-      player.source = {
-        type: 'video',
-        sources: [
-          {
-            src: 'https://d26g5bnklkwsh4.cloudfront.net/' + video_id[1] + '/hls/720/main.m3u8',
-            type: 'video/mp4',
-            size: 720,
-          },
-          {
-            src: 'https://d26g5bnklkwsh4.cloudfront.net/' + video_id[1] + '/hls/480/main.m3u8',
-            type: 'video/mp4',
-            size: 480,
-          },
-          {
-            src: 'https://d26g5bnklkwsh4.cloudfront.net/' + video_id[1] + '/hls/360/main.m3u8',
-            type: 'video/mp4',
-            size: 360,
-          },
-          {
-            src: 'https://d26g5bnklkwsh4.cloudfront.net/' + video_id[1] + '/hls/240/main.m3u8',
-            type: 'video/mp4',
-            size: 240,
-          },
-        ],
-      };
-    });
-  </script>
+    function redirectToURL() {
+        var textValue = document.getElementById("videoKey").value;
+        var base_url = "https://anukoushal.github.io/anu/old/plyr.html?vid=" + textValue;
+        var url = base_url + additional_params;
+        window.location.href = url
+    }
+</script>
+
+ </body>
+
+</html>
+<!-- partial -->
+  
 </body>
 </html>

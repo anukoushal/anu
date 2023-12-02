@@ -63,8 +63,8 @@ onclick="redirectToURL()">
   <script>
     function redirectToURL() {
         var textValue = document.getElementById("videoKey").value;
-        var base_url = "https://anukoushal.github.io/anu/plyrr/plyrmain.html?vid" + textValue;
-        var additional_params = "n=€&d=€&q=https://www.pw.live/study ";
+        var base_url = "https://anukoushal.github.io/anu/plyrr/plyrmain.html?vid=" + textValue;
+        var additional_params = "&n=€&d=€&q=https://www.pw.live/study ";
         var url = base_url + additional_params;
         window.location.href = url;
     }

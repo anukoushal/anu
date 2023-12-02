@@ -1,1 +1,82 @@
-F
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pw Player by αηηυ</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Pw Player by αηηυ</title> 
+
+  <link rel="stylesheet" href="./style.css"> 
+
+ </head> 
+
+ <body> <!-- partial:index.partial.html --> 
+
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <h2>PWF  VIDEO PLAYER</h2> 
+
+     <div class="form"> 
+
+      <div class="inputBox"> 
+
+                 <input type="text" id="videoKey" required> <i>Full Url</i>
+
+      </div> 
+
+      
+      <div class="links"> <a href="https://anukoushal.github.io/anu/">New Player</a> <a href="https://anukoushal.github.io/anu/old/index1.html">Old Player </a> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="submit" value="【P】【L】【A】【Y】⚡"
+onclick="redirectToURL()"> 
+
+      </div> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+  	
+  <script>
+    function redirectToURL() {
+        var textValue = document.getElementById("videoKey").value;
+        // Replace "https://d26g5bnklkwsh4.cloudfront.net/" with "/master.m3u8"
+        textValue = textValue.replace("https://d26g5bnklkwsh4.cloudfront.net/", "=");
+        textValue = textValue.replace("/master.m3u8","&");
+        var base_url = "https://prideanu.github.io/a/Player/player.html?vid" + textValue;
+        var additional_params = "n=€&d=€&q=https://www.pw.live/study ";
+        var url = base_url + additional_params;
+        window.location.href = url.split('https://d26g5bnklkwsh4.cloudfront.net/');
+    }
+</script>
+
+ </body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>

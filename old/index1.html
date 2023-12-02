@@ -60,12 +60,12 @@ onclick="redirectToURL()">
 
   </section> <!-- partial --> 
   	
-  <script>
+    <script>
     function redirectToURL() {
         var textValue = document.getElementById("videoKey").value;
-        
-        var base_url = "https://anukoushal.github.io/anu/old/plyr.html?vid" + textValue;
-        window.location.href = url;
+        var base_url = "https://anukoushal.github.io/anu/old/plyr.html?vid=" + textValue;
+        var url = base_url;
+        window.location.href = url
     }
 </script>
 
